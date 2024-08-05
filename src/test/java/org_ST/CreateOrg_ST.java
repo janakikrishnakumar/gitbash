@@ -24,6 +24,8 @@ public class CreateOrg_ST {
 		driver.findElement(By.id("submitButton")).click();
 		String title=driver.findElement(By.xpath("//a[contains (text(),'Home')]")).getText();
 
-		driver.quit();
+		
+		
+		
 	}
 }
